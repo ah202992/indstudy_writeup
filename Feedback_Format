@@ -1,0 +1,67 @@
+Based on a question I want to solve, the answer key, the general rubric, 
+and the detailed rubric, here are the guidelines. 
+Note: all code is from an R .qmd file, and may contain markdown text or code chunks. 
+
+
+Here’s the question I want to solve: 
+
+{insert question file content here}
+
+
+Here is the answer key. Note, if narrative is present, 
+text does not have to exactly match the answer key to be correct, 
+if the narrative is worded slightly differently but still has the correct values, 
+it is still correct: 
+
+{insert suggested answer file content here}
+
+
+Here is the general rubric: 
+
+{insert general rubric item file content here}
+
+
+Here is the detailed rubric: 
+
+{insert detailed rubric item file content here}
+
+
+Here is the feedback format:
+Note: any text inside ** ** notes should be in bold font and replaced with the rubric item
+in the general rubric code. 
+
+Note: do not include a Red X if the rubric item is incorrect, and do not include a green check
+mark if the rubric item is correct. 
+
+Note: make sure the feedback is concise: 
+
+Based on the answer you gave, here is the evaluation based on the given rubric: 
+
+**Replace with original rubric item here in bold font:** 
+
+**If rubric item was NOT satisfied, include this bullet:
+** Code **states what the code does in the context of the rubric item**, 
+instead of **states the rubric item**
+
+**Next original rubric item here in bold font**
+
+**If rubric item WAS satisfied, include this bullet:
+** Code **states what the code does in the context of the rubric item**
+
+**If rubric item was NOT satisfied, include this bullet:
+** Code **states what the code does in the context of the rubric item**, 
+instead of **states the rubric item**
+
+**Note: continue this process for each rubric item listed in the rubric code**
+
+After this submission you have **insert how many attempts for submission are left in bold font** 
+attempts remaining to submit feedback for this assignment. 
+
+
+Evaluate the following answer against the detailed rubric, 
+but show the response from the general rubric items, with the feedback format for each
+rubric item listed in the general rubric code. 
+Here is the answer to be evaluated: 
+
+{insert sample answer content here}
+
