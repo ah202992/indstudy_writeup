@@ -2,7 +2,11 @@
 title: "Independent Study Final Report"
 subtitle: "Advisor: Dr. Mine Çetinkaya-Rundel"
 author: "Avery Hodges"
-format: pdf
+format:
+  pdf:
+    mainfont: "Times New Roman"
+    monofont: "Times New Roman"
+    colorlinks: false
 ---
 
 ## Section 1: Literature Review
@@ -106,14 +110,16 @@ Before this semester, my knowledge of LLMs was lacking in many ways. As this ind
 Looking forward, there are some steps that the team was able to start during the semester, but need additional time and resources in order to move forward. 
 
 First, the process of connecting the OIT LLM with the private question bank repository in GitHub is in the process of completion. To start this process, certain variables had to be registered in the `.Renviron ` file, these variables are listed below, with each of these variables acquired through OIT's contact Mark McCahill (except GITHUB_PAT) and listed in the `ellmer_test.qmd` file in the `question-bank` repository owned by Dr. Mine Çetinkaya-Rundel: 
+
 - `OPENAI_API_TYPE`: the organization/provider of the model
-- `OPENAI_API_BASE`: URL to the OIT modeling platform  
-- `OPENAI_API_VERSION`: version of the model 
-- `OPENAI_API_KEY`: API key to access OIT models 
+- `OPENAI_API_BASE`: URL to the OIT modeling platform
+- `OPENAI_API_VERSION`: version of the model
+- `OPENAI_API_KEY`: API key to access OIT models
 - `GITHUB_PAT`: personal API key to access GitHub repositories, but needs further work/research
 
 Lastly, the file structure set up to access the various GitHub folders has been determined, and the functions in the `ellmer_test.qmd` and `gadget_feedback.R` files in the `question-bank` repository reflect this structure. For future testing, ensure that your files follow this relative structure (note that the names of specific files/folders will be different, but when structuring the system, the shiny gadget will accept this structure): 
 
+```text
 /LabAssignments
     /Lab1
         /Q1
@@ -135,6 +141,7 @@ Lastly, the file structure set up to access the various GitHub folders has been 
             answer.qmd
         ...
     ...
+```
 
 
 
