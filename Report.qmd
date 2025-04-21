@@ -117,7 +117,7 @@ First, the process of connecting the OIT LLM with the private question bank repo
 - `OPENAI_API_KEY`: API key to access OIT models
 - `GITHUB_PAT`: personal API key to access GitHub repositories, but needs further work/research
 
-Lastly, the file structure set up to access the various GitHub folders has been determined, and the functions in the `ellmer_test.qmd` and `gadget_feedback.R` files in the `question-bank` repository reflect this structure. For future testing, ensure that your files follow this relative structure (note that the names of specific files/folders will be different, but when structuring the system, the shiny gadget will accept this structure): 
+The file structure set up to access the various GitHub folders has been determined, and the functions in the `ellmer_test.qmd` and `gadget_feedback.R` files in the `question-bank` repository reflect this structure. For future testing, ensure that your files follow this relative structure (note that the names of specific files/folders will be different, but when structuring the system, the shiny gadget will accept this structure): 
 
 ```text
 /LabAssignments
@@ -143,8 +143,4 @@ Lastly, the file structure set up to access the various GitHub folders has been 
     ...
 ```
 
-
-
-
-
-
+Lastly, due to the permission errors with the private GitHub repository, `question-bank`, the function to create the lookup table, called `file_lookup.csv`, still needs to be created and the function needs to be modified. For a specific use case, a manually created lookup file has been created and placed in the `ellmer_test.qmd` file in the `question-bank` repository. 
