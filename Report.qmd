@@ -144,3 +144,12 @@ The file structure set up to access the various GitHub folders has been determin
 ```
 
 Lastly, due to the permission errors with the private GitHub repository, `question-bank`, the function to create the lookup table, called `file_lookup.csv`, still needs to be created and the function needs to be modified. For a specific use case, a manually created lookup file has been created and placed in the `ellmer_test.qmd` file in the `question-bank` repository. 
+
+
+# Notes for edits: 
+- bring in what experience looks like: here's a question, potential answer, etc.
+- write up comparison between what a TA would give and what feedback the LLM would give feedback, paragraph on what this does in general, ways the LLM does well on average/doesn't do well on average
+- preference for particular model = expand more 
+- screenshot on gadget in Stage 3
+- next steps for gadget
+- citation feature in quarto = bib file
