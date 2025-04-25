@@ -8,6 +8,9 @@ format:
     monofont: "Times New Roman"
     colorlinks: false
 bibliography: references.bib
+editor: 
+  markdown: 
+    wrap: sentence
 ---
 
 ## Section 1: Literature Review
@@ -27,27 +30,31 @@ In terms of formatting, Copilot frequently switched between tidyverse and base R
 Lastly, there was little transparency about how Copilot arrived at the coding answers it did, leaving students without the necessary context of why their answers make sense.
 Overall, while the tool was able to foster students learning through guided feedback and tailored content, there was a concern that students wouldn't be able to tell if their Copilot code was correct or not, leaving educators to teach students how and when to check their output.
 
+{{< pagebreak >}}
+
 #### Source 2: "Evaluating the Effectiveness of LLMs in Introductory Computer Science Education: A Semester-Long Field Study."
 
-For the next data source, a similar study was conducted in the computer science field, where a semester long study of 50 students were separated into an experimental group that had access to Code Tutor, an LLM powered assistant made by the research team, and a control group with no access to the tool.
+In @lyu2024 , a similar study was conducted in the computer science field, where a semester long study of 50 students were separated into an experimental group that had access to Code Tutor, an LLM powered assistant made by the research team, and a control group with no access to the tool.
 At the end of the semester, those in the experimental group had higher test and assignment scores than those in the control group, but as time increased, how much students agreed with the tool decreased and their preference for traditional human assistants went up.
 Despite these results, no other factors were controlled for in the study.
 
 #### Source 3: "A New Era of Learning: Considerations for ChatGPT as a Tool to Enhance Statistics and Data Science Education."
 
-The next literary source focuses on the potential and cautions surrounding ChatGPT and its use in data science education, and only includes discussions about these topics, not a study of some kind.
+@ellis2023 focuses on the potential and cautions surrounding ChatGPT and its use in data science education, and only includes discussions about these topics, not a study of some kind.
 Despite the controversy about ChatGPT's lack of "common sense knowledge or the ability to understand context beyond what it has learned from its training data”, the immense amount of information that ChatGPT trains on, such as books, articles, journals, websites, and other digital resources, LLMs like this can access a wide array of information that a user normally could not in the same time period. However, not all sources on the internet are created equal, and inaccuracies in these sources, especially in more complex topics, can reveal themselves in the LLM's outputs. Despite this, some use cases in the data science educational field include generating lecture notes summary, practice quizzes and exam question, or code conversions between languages such as R and Python.
 
 #### Source 4: "Empowering Education: ChatGPT's Role in Teaching and Learning Statistics and Data Analytics."
 
-Similar to Source 3, this article did not use experimental methods, but rather includes a discussion about ChatGPT and its role in data science education.
+Similar to Source 3, @pan2023 did not use experimental methods, but rather includes a discussion about ChatGPT and its role in data science education.
 The article emphasized that since ChatGPT's introduction to the market in November 2022, there has been a transitional emphasis on coding, shifting from an isolated job market to one that can be available to everyone.
 Sped-up by the COVID-19 pandemic, in which there was limited in-person and synchronous education time, virtual tools and their development were streamlined.
 Students no longer have to code from scratch, leading us to a future where "coding will be a new form of literacy, with the expectation that students in the 21st century will acquire this skill.” (page 43). In addition to this, the article explained how the GPT Builder tool developed by OpenAI can make personalized models based on the material given to it, a potential resource and framework that educators can take advantage of when structuring their own courses.
 
+{{< pagebreak >}}
+
 #### Source 5: "The Use of Generative AI in Statistical Data Analysis and Its Impact on Teaching Statistics at Universities of Applied Sciences."
 
-In another discussion and study on the future of education in data science and LLMs, Source 5 emphasizes the lack of experimentation in testing different types of LLM education platforms, claiming that there has only been theoretical discussions on the benefits and challenges of these systems.
+In another discussion and study on the future of education in data science and LLMs, @schwarz2025 emphasizes the lack of experimentation in testing different types of LLM education platforms, claiming that there has only been theoretical discussions on the benefits and challenges of these systems.
 In their exploration, relatively simple statistical concepts were explained well by ChatGPT specifically, while the model struggles with explaining more complex topics.
 The researchers found that code written and produced in R and Python were better explained, as there is more digital material for the LLMs to train on.
 
@@ -60,38 +67,17 @@ Finally, the research team noted an ethical concern about data privacy, as data 
 
 #### Source 6: "What Should Data Science Education Do with Large Language Models."
 
-In another discussion on data science education and Large Language Models, Source 6 dives into some theoretical use cases in the educational sphere.
+In another discussion on data science education and Large Language Models, @tu2024 dives into some theoretical use cases in the educational sphere.
 The researchers begin with a comparison to real-world jobs, claiming that the "evolution of roles is reminiscent of the transition from a software engineer to a product manager.” Instead of writing code, we now oversee it, emphasizing the need for a different perspective for educators to take as they approach LLMs. To prevent plagiarism and pure coding assignments that can be streamlined, assignments should have personalized reflections, critical thinking pieces, or unique approaches to solving a problem that AI can’t easily replicate. Educators can take advantage of plagiarism detection tools, but these can have high false positive rates. The new strategy that teachers should take, according to the research team, is one that nurtures creativity and critical thinking, guided by an LLM that provides hints or feedback as students move through the learning and planning process.
 
 {{< pagebreak >}}
 
 #### Source 7: "Incorporating LLM-Based Interactive Learning Environments in CS Education: Learning Data Structures and Algorithms Using the Gurukul Platform"
 
-To end the literature review, this last article published by Virginia Tech University introduces the Gurukul platform, a coding system developed by the research team that contains “Retrieval Augmented Generation and Guardrails” that prevents the model from providing explicit solutions to students.
+To end the literature review, this last article published by Virginia Tech University, @rachha2024incorporating, introduces the Gurukul platform, a coding system developed by the research team that contains “Retrieval Augmented Generation and Guardrails” that prevents the model from providing explicit solutions to students.
 As LLMs can "hallucinate" or give inaccurate answers as fact, students can be led astray by the inaccuracies of an LLM, inhibiting the learning process.
 In addition, it can expose students to cheating and prevent students from the critical trial and error step of the learning process, damaging their knowledge down the line.
 To solve this, the research team implemented this tool that provides hands-on learning, but gives guided feedback and does not provide the correct answer immediately, allowing students to still learn as they progress.
-
-### Works Cited
-
-1.  Chung, J., et al. "Evaluating the Effectiveness of LLMs in Introductory Computer Science Education: A Semester-Long Field Study.", 2024.
-
-2.  Ellis, Amanda R., and Emily Slade.
-    "A New Era of Learning: Considerations for ChatGPT as a Tool to Enhance Statistics and Data Science Education." Journal of Statistics and Data Science Education 31.2 (2023): 128–133.
-
-3.  Pan, Youqin, and Jian Gu.
-    "Empowering Education: ChatGPT's Role in Teaching and Learning Statistics and Data Analytics." International Journal of Technology in Teaching and Learning 19.1 (2023): 34–51.
-
-4.  Schwarz, Joachim.
-    "The Use of Generative AI in Statistical Data Analysis and Its Impact on Teaching Statistics at Universities of Applied Sciences." Teaching Statistics (2025).
-
-5.  Tu, Xinming, et al. "What Should Data Science Education Do with Large Language Models." arXiv preprint arXiv:2307.02792 (2023).
-
-6.  Virginia Tech.
-    "Incorporating LLM-Based Interactive Learning Environments in CS Education: Learning Data Structures and Algorithms Using the Gurukul Platform".
-    2024.
-
-{{< pagebreak >}}
 
 ## Section 2: Project Overview & Progress
 
@@ -114,29 +100,25 @@ To do this, I set up the general format that the LLM would follow to give studen
 
 With the question bank and feedback format established, the various OIT models at our disposal could be tested on how well they copied the format created.
 In coordination with Mark McCahill, access to the OIT platform was given, and the feedback format was evaluated against the models available.
-From this evaluation, the ChatGPT-4o-mini model copied the feedback format the best, and this model was chosen moving forward.
-
-{{< pagebreak >}}
+From this evaluation, the ChatGPT-4o-mini model copied the feedback format instructions the best, in terms of not giving students the numerical correct answers, restating the correct rubric items, and determining whether the student's answer was correct.
+Other models in the OIT system could often perform a couple of these tasks well, but had major formatting issues, gave incorrect answers, or did not state the rubric items correctly or did so inconsistently.
+Lastly, with ChatGPT 4 models specifically @gpt41 predicts that future continuations of these models will have better tailored coding abilities for real-world instruction.
+After this evaluation, ChatGPT-4o-mini was chosen as the best model to move forward with.
 
 ### Stage 3: Connecting Questions to the OIT LLMs
 
 The final stage of the project in the semester was to connect the question bank data with the LLM from the OIT platform.
-To do this, I researched ellmer at the suggestion of Dr. Mine Çetinkaya-Rundel, an R package that provides the framework and functions to send queries to LLMs using API requests.
-After reviewing the documentation, I created a shiny gadget that would be registered as a r-studio add-in that students could choose a specific lab assignment, a specific question, and paste their code into a text box to submit their code and narrative that would send a query to the OIT large language model, shown in `gadget_feedback.R`.
+To do this, I researched @ellmer at the suggestion of Dr. Mine Çetinkaya-Rundel, an R package that provides the framework and functions to send queries to LLMs using API requests.
+After reviewing the documentation, I created a shiny gadget using @shiny that would be registered as a r-studio add-in that students could choose a specific lab assignment, a specific question, and paste their code into a text box to submit their code and narrative that would send a query to the OIT large language model, shown in `gadget_feedback.R`.
+and in the image below:
+
+![](images/Screenshot 2025-04-25 141304.png){width="175" height="175"}
 
 ### Learning Acquired
 
 Before this semester, my knowledge of LLMs was lacking in many ways.
-As this independent study has progressed, I have learned how these models work, which are better at formatting feedback in specified ways, how the ellmer package can connect a query to an LLM model and send its output back to the user, how to work with API requests, and more.
+As this independent study has progressed, I have learned how these models work, which are better at formatting feedback in specified ways, how the @ellmer package can connect a query to an LLM model and send its output back to the user, how to work with API requests, and more.
 Rather than a surface knowledge of how LLMs can be used to help students, I got to start a back-end pipeline that will help students gain access to valuable feedback as they progress in their data science education.
-
-TO DO: Add a sentence about what you learned from @gpt41.
-
-### Works Cited:
-
-1.  Couch, Simon P. "GPT-4.1 and the Future of Data Science Education." simonpcouch.com, 15 Apr. 2025, https://www.simonpcouch.com/blog/2025-04-15-gpt-4-1/. Accessed 15 Apr. 2025.
-2.  Ellmer. chat_openai: Interact with the ChatGPT API via OpenAI. Ellmer: Generative AI for Data Science in R, https://ellmer.tidyverse.org/reference/chat_openai.html. Accessed 15 Apr. 2025.
-3.  RStudio Addins — shiny Gadgets. RStudio, https://rstudio.github.io/rstudioaddins/#shiny-gadgets. Accessed 15 Apr. 2025.
 
 {{< pagebreak >}}
 
@@ -182,14 +164,21 @@ For future testing, ensure that your files follow this relative structure (note 
 
 Lastly, due to the permission errors with the private GitHub repository, `question-bank`, the function to create the lookup table, called `file_lookup.csv`, still needs to be created and the function needs to be modified.
 For a specific use case, a manually created lookup file has been created and placed in the `ellmer_test.qmd` file in the `question-bank` repository.
+Once this has been created correctly for all question folders in the `question-bank` repository, the shiny gadget in `gadget_feedback.R` needs to be updated so that the lookup table can be read in and the gadget can access it to then pull questions from the `question-bank` repository based on the specific lab assignment/lab question combination a student chooses.
 
-# Notes for edits:
+### Comparison: TA vs. LLM
 
--   bring in what experience looks like: here's a question, potential answer, etc.
--   write up comparison between what a TA would give and what feedback the LLM would give feedback, paragraph on what this does in general, ways the LLM does well on average/doesn't do well on average
--   preference for particular model = expand more
--   screenshot on gadget in Stage 3
--   next steps for gadget
--   citation feature in quarto = bib file
+Once these next steps have been completed, a student should be able to use the shiny gadget to choose a specific lab assignment/question combination while they are working on that assignment in their IDE, and paste the code/narrative that they are working on into the gadget for evaluation.
+From there, the gadget should use the lookup table to pull the `rubric.qmd`, `detailedrubric.qmd`, `question.qmd`, and `answer.qmd` from the `question-bank` repository, the pasted code from the student, and send a request to evaluate the student's answer against the `rubric.qmd` given the other files and the specific format specified in `Feedback_Format.txt`.
+
+Compared to a teaching assistant (TA) grading these assignments, in which the TA can look at the rubric items extensively at the cost of time and energy, we hope that students will be able to use this tool more incrementally: instead of checking their work at the end, this LLM tool would guide students in the right direction without giving them the right answer explicitly as they progress towards their final submission.
+In our evaluation of this LLM's performance, there are a few differences between a typical TA's grading and the LLM's evaluation:
+
+Specifically for code style, the LLM would often penalize for this rubric item, even if there were no errors that a TA could see.
+Compared to a TA, the LLM was more consistent in providing feedback, as comments do not change from submission to submission and there are not multiple graders on one question.
+However, it should be emphasized that the LLM could not give personalized responses to every submission, like a TA could, as there is a specific feedback format based on the rubric items that the LLM was instructed to follow.
+Lastly, although the LLM may seem consistently correct to students, there are still rubric items in which the LLM gives wrong answers with confidence, introducing the potential to mislead students, whereas as a TA might make these mistakes, but can constantly recheck the rubric items and rely on their past knowledge to grade correctly.
+
+{{< pagebreak >}}
 
 # References

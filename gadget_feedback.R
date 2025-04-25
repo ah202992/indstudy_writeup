@@ -4,12 +4,12 @@ library(tidyverse)
 library(shiny)
 
 # Load lookup table from CSV
-lookup_table <- read_csv("file_lookup.csv")
+#lookup_table <- read_csv("file_lookup.csv")
 
 # Function to get file path from lookup table
 get_file_path <- function(lab, question, type) {
   path <- lookup_table |>
-    filter(lab == lab, question == question, type == type) %>%
+    filter(lab == lab, question == question, type == type) |>
     pull(file_path)
   
   if (length(path) == 0) {
